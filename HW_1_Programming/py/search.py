@@ -83,7 +83,23 @@ def depthFirstSearch(problem):
     """
     YOUR CODE HERE
     """
+    print("Start:", problem.getStartState())
+    print("Is the start a goal?", problem.isGoalState(problem.getStartState()))
+    print("Start's successors:", problem.getSuccessors(problem.getStartState()))
 
+    """
+    Graph search
+    1. Tree search + set of expanded states (closed set)
+    2. Expand search tree node-by-node
+      3. Before expanding a node, check to make sure it's last state has never been expanded
+      4. If not new, skip it; if new add to closed set
+    """
+    ##Create closed set
+    closedSet = []
+    ##create fringe, insert children of current node in fringe
+    
+    
+    
     util.raiseNotDefined()
     
 
