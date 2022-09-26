@@ -97,9 +97,11 @@ def depthFirstSearch(problem):
       4. If not new, skip it; if new add to closed set
     """
     ##Create closed set
-    closedSet = []
-    ##create fringe, insert children of current node in fringe
+    stack = []
+    ##Check if first node is goal node
     
+    ##If not, then
+    ##If it is the goal, then return stack
     
     
     util.raiseNotDefined()
