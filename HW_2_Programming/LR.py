@@ -140,7 +140,7 @@ def linear_regression(X, Y):
     tilde_W = np.matmul(tilde_W, tilde_X)
     tilde_W = np.matmul(tilde_W, Y)
     
-    w = tilde_W[0:D - 1]
+    w = tilde_W[0:D]
     
     b = tilde_W[D]
 
